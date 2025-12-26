@@ -12,7 +12,8 @@ RUN apt-get update -qq && \
     locales apt-utils tzdata wget software-properties-common \
     bash bc binutils-dev bison build-essential ca-certificates cmake cpio curl default-jre \
     file flex g++ gcc gh git git-lfs libelf-dev libncurses5-dev libssl-dev kmod \
-    libxml2 lz4 make nano ninja-build python3 python3-dev python3-pip python3-venv rclone texinfo u-boot-tools \
+    libxml2 lz4 make nano ninja-build rclone texinfo u-boot-tools \
+    python3 python3-dev python3-pip python3-venv python3.12-venv \
     xz-utils zlib1g-dev zip unzip p7zip pigz zstd openssh-client aria2 jq pipx && \
     echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
     locale-gen en_US.UTF-8 && \
