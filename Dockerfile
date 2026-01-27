@@ -11,9 +11,9 @@ RUN apt-get update -qq && \
     apt-get install -y --no-install-recommends \
     adb apt-utils aria2 bash bc binutils-dev bison build-essential \
     ca-certificates ccache cmake cpio curl default-jre fastboot file flex g++ gcc \
-    gh git git-lfs gperf jq kmod lib32ncurses5-dev lib32z1-dev libelf-dev \
-    libexpat1-dev libncurses5-dev libssl-dev libtinfo5 libxml2 libxml2-utils \
-    locales lsb-core lz4 make nano ninja-build openssh-client p7zip pigz pipx \
+    gh git git-lfs gperf jq kmod lib32ncurses-dev lib32z1-dev libelf-dev \
+    libexpat1-dev libncurses5-dev libssl-dev libtinfo6 libxml2 libxml2-utils \
+    locales lz4 make nano ninja-build openssh-client p7zip pigz pipx \
     pngcrush pngquant python3 python3-dev python3-pip python3-venv python3.12-venv \
     rclone rsync schedtool software-properties-common squashfs-tools sudo \
     texinfo tzdata u-boot-tools unzip wget xsltproc xz-utils zlib1g-dev zip zstd && \
