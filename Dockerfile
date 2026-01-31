@@ -14,7 +14,7 @@ RUN apt-get update -qq && \
     gh git git-lfs gnupg gnupg-agent gperf jq kmod lib32ncurses-dev lib32z1-dev libelf-dev \
     libexpat1-dev libncurses5-dev libssl-dev libtinfo6 libxml2 libxml2-utils \
     locales lz4 make nano ninja-build openssh-client p7zip pigz pinentry-curses pipx \
-    pngcrush pngquant python3 python3-dev python3-pip python3-venv python3.12-venv \
+    pngcrush pngquant python3 python3-dev python-is-python3 python3-pip python3-venv python3.12-venv \
     rclone rsync schedtool software-properties-common squashfs-tools sudo \
     texinfo tzdata u-boot-tools unzip wget xsltproc xz-utils zlib1g-dev zip zstd && \
     echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
