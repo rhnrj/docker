@@ -16,7 +16,7 @@ RUN apt-get update -qq && \
     locales lz4 make nano ninja-build openssh-client p7zip pigz pinentry-curses pipx \
     pngcrush pngquant python3 python3-dev python-is-python3 python3-pip python3-venv python3.12-venv \
     rclone rsync schedtool software-properties-common squashfs-tools sudo \
-    texinfo tzdata u-boot-tools unzip wget xsltproc xz-utils zlib1g-dev zip zstd && \
+    texinfo tzdata u-boot-tools unzip wget xsltproc xz-utils zlib1g-dev zip zstd zram-tools && \
     echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
     locale-gen en_US.UTF-8 && \
     update-locale LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 && \
