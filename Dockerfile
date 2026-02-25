@@ -26,7 +26,7 @@ RUN apt-get update -qq && \
 # Download and extract AOSP Clang
 RUN mkdir -p /opt/clang && \
     wget -O clang.tar.gz \
-      https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/mirror-goog-main-llvm-toolchain-source/clang-r584948.tar.gz && \
+      https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/mirror-goog-main-llvm-toolchain-source/clang-r584948b.tar.gz && \
     tar -xzf clang.tar.gz -C /opt/clang && \
     find /opt/clang -mindepth 1 -maxdepth 1 \
         ! -name bin ! -name lib -exec rm -rf {} + && \
